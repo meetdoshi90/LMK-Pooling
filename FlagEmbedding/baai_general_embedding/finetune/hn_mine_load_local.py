@@ -1,0 +1,139 @@
+import argparse
+import json
+import random
+import numpy as np
+import faiss
+from faiss import write_index, read_index,index_gpu_to_cpu
+from tqdm import tqdm
+import pickle
+from FlagEmbedding import FlagModel
+
+
+def get_args():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--model_name_or_path', default="BAAI/bge-base-en-v1.5", type=str)
+    parser.add_argument('--input_file', default=None, type=str)
+    parser.add_argument('--candidate_pool', default=None, type=str)
+    parser.add_argument('--output_file', default=None, type=str)
+    parser.add_argument('--range_for_sampling', default=None, type=str, help="range to sample negatives")
+    parser.add_argument('--use_gpu_for_searching', action='store_true', help='use faiss-gpu')
+    parser.add_argument('--negative_number', default=15, help='the number of negatives')
+    parser.add_argument('--query_instruction_for_retrieval', default="")
+
+    return parser.parse_args()
+
+
+def create_index(embeddings, use_gpu):
+    index = faiss.IndexFlatIP(len(embeddings[0]))
+    embeddings = np.asarray(embeddings, dtype=np.float32)
+    if use_gpu:
+        co = faiss.GpuMultipleClonerOptions()
+        co.shard = True
+        co.useFloat16 = True
+        index = faiss.index_cpu_to_all_gpus(index, co=co)
+    index.add(embeddings)
+    return index
+
+
+def batch_search(index,
+                 query,
+                 topk: int = 200,
+                 batch_size: int = 512):
+    all_scores, all_inxs = [], []
+    for start_index in tqdm(range(0, len(query), batch_size), desc="Batches", disable=len(query) < 256):
+        batch_query = query[start_index:start_index + batch_size]
+        batch_scores, batch_inxs = index.search(np.asarray(batch_query, dtype=np.float32), k=topk)
+        all_scores.extend(batch_scores.tolist())
+        all_inxs.extend(batch_inxs.tolist())
+    return all_scores, all_inxs
+
+
+def get_corpus(candidate_pool):
+    corpus = []
+    for line in open(candidate_pool):
+        line = json.loads(line.strip())
+        corpus.append(line['text'])
+    return corpus
+
+
+def find_knn_neg(model, input_file, candidate_pool, output_file, sample_range, negative_number, use_gpu):
+    corpus = []
+    queries = []
+    train_data = []
+    # for line in tqdm(open(input_file)):
+    #     line = json.loads(line.strip())
+    #     #train_data.append(line)
+    #     #corpus.extend(line['pos'])
+    #     # if 'neg' in line:
+    #     #     corpus.extend(line['neg'])
+    #     queries.append(line['query'])
+
+    # if candidate_pool is not None:
+    #     corpus = get_corpus(candidate_pool)
+    # corpus = list(set(corpus))
+    
+    # with open("data/finetune/74m/corpus_query_train_data.pkl", "wb") as fOut:
+    #     pickle.dump({'corpus': corpus, 'query': queries,'train_data':train_data}, fOut)
+    with open("data/finetune/74m/corpus_query_train_data.pkl","rb") as fin:
+        data_cqt = pickle.load(fin)
+    corpus = data_cqt["corpus"]
+    #queries = data_cqt["query"]
+    train_data = data_cqt["train_data"]
+
+    print(f'inferencing embedding for corpus (number={len(corpus)})--------------')
+    # p_vecs = model.encode(corpus, batch_size=256)
+    # print(f'inferencing embedding for queries (number={len(queries)})--------------')
+    # q_vecs = model.encode_queries(queries, batch_size=512)
+    # with open("data/finetune/74m/p_vecs_q_vecs_a100.pkl", "wb") as fOut:
+    #     pickle.dump({'corpus': p_vecs, 'query': q_vecs}, fOut)
+    print('create index and search------------------')
+    #index = create_index(p_vecs, use_gpu=use_gpu)
+    #index_cpu = index_gpu_to_cpu(index)
+    #faiss.write_index(index_cpu, "data/finetune/index/corpus_a100.index")
+    index = faiss.read_index("data/finetune/index/corpus_a100.index")
+    co = faiss.GpuMultipleClonerOptions()
+    co.shard = True
+    co.useFloat16 = True
+    index = faiss.index_cpu_to_all_gpus(index, co=co)
+    with open("data/finetune/74m/p_vecs_q_vecs_a100.pkl","rb") as fin:
+        data = pickle.load(fin)
+    #p_vecs = data["corpus"]
+    q_vecs = data["query"] 
+    print("everything is loaded from files")
+    _, all_inxs = batch_search(index, q_vecs, topk=sample_range[-1])
+    #assert len(all_inxs) == len(train_data)
+
+    for i, data in enumerate(train_data):
+        query = data['query']
+        inxs = all_inxs[i][sample_range[0]:sample_range[1]]
+        filtered_inx = []
+        for inx in inxs:
+            if inx == -1: break
+            if corpus[inx] not in data['pos'] and corpus[inx] != query:
+                filtered_inx.append(inx)
+
+        if len(filtered_inx) > negative_number:
+            filtered_inx = random.sample(filtered_inx, negative_number)
+        data['neg'] = [corpus[inx] for inx in filtered_inx]
+
+    with open(output_file, 'w') as f:
+        for data in train_data:
+            if len(data['neg']) < negative_number:
+                data['neg'].extend(random.sample(corpus, negative_number - len(data['neg'])))
+            f.write(json.dumps(data) + '\n')
+
+
+if __name__ == '__main__':
+    args = get_args()
+    sample_range = args.range_for_sampling.split('-')
+    sample_range = [int(x) for x in sample_range]
+
+    model = FlagModel(args.model_name_or_path, query_instruction_for_retrieval=args.query_instruction_for_retrieval)
+
+    find_knn_neg(model,
+                 input_file=args.input_file,
+                 candidate_pool=args.candidate_pool,
+                 output_file=args.output_file,
+                 sample_range=sample_range,
+                 negative_number=args.negative_number,
+                 use_gpu=args.use_gpu_for_searching)

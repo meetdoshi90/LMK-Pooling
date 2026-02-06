@@ -1,0 +1,97 @@
+[
+    {
+        "name": "merged_swahili.jsonl.gz",
+        "lines": 3973,
+        "weight": 2
+    },
+    {
+        "name": "merged_farsi.jsonl.gz",
+        "lines": 2107,
+        "weight": 2
+    },
+    {
+        "name": "merged_finnish.jsonl.gz",
+        "lines": 9458,
+        "weight": 1
+    },
+    {
+        "name": "merged_indonesian.jsonl.gz",
+        "lines": 8973,
+        "weight": 1
+    },
+    {
+        "name": "merged_french.jsonl.gz",
+        "lines": 2751,
+        "weight": 4
+    },
+    {
+        "name": "merged_german.jsonl.gz",
+        "lines": 1847,
+        "weight": 4
+    },
+    {
+        "name": "merged_korean.jsonl.gz",
+        "lines": 4361,
+        "weight": 4
+    },
+    {
+        "name": "merged_spanish.jsonl.gz",
+        "lines": 4416,
+        "weight": 4
+    },
+    {
+        "name": "merged_italian.jsonl.gz",
+        "lines": 2151,
+        "weight": 4
+    },
+    {
+        "name": "merged_portuguese.jsonl.gz",
+        "lines": 1845,
+        "weight": 4
+    },
+    {
+        "name": "merged_japanese.jsonl.gz",
+        "lines": 9436,
+        "weight": 4
+    },
+    {
+        "name": "merged_bengali.jsonl.gz",
+        "lines": 3344,
+        "weight": 1
+    },
+    {
+        "name": "merged_telugu.jsonl.gz",
+        "lines": 7332,
+        "weight": 1
+    },
+    {
+        "name": "merged_thai.jsonl.gz",
+        "lines": 8261,
+        "weight": 4
+    },
+    {
+        "name": "merged_russian.jsonl.gz",
+        "lines": 11913,
+        "weight": 8
+    },
+    {
+        "name": "merged_hindi.jsonl.gz",
+        "lines": 2787,
+        "weight": 4
+    },
+    {
+        "name": "merged_arabic.jsonl.gz",
+        "lines": 17689,
+        "weight": 8
+    },
+    {
+        "name": "merged_chinese.jsonl.gz",
+        "lines": 397993,
+        "weight": 80
+    },
+    {
+        "name": "merged_english.jsonl.gz",
+        "lines": 1069227,
+        "weight": 200
+    }
+]

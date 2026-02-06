@@ -1,0 +1,18 @@
+datasets==4.4.1
+einops==0.8.2
+matplotlib==3.10.8
+mteb==2.6.7
+numpy==2.4.2
+nvidia_ml_py==13.580.82
+pandas==3.0.0
+pysbd==0.3.4
+sentence_splitter==1.4
+sentence_transformers==5.1.2
+setuptools==80.9.0
+spacy==3.8.11
+torch==2.6.0
+tqdm==4.67.1
+transformers==4.57.1
+# sentence splitter with timeout
+git+ssh://git@github.com/asier-gutierrez/sentence-splitter.git 
+git+ssh://git@github.com/meetdoshi90/pySBD.git
