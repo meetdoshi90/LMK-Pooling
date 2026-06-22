@@ -151,3 +151,13 @@ xlm-roberta-large-8192/
 mteb_results/
 eval_scripts/run_eval.sh
 ft_scripts/submit_jobs_*
+eval_scripts/temp_decoder
+eval_scripts/llm2vec_decoder_results_grouped
+eval_scripts/llm2vec_llama*
+eval_scripts/msmarco_decoder*
+eval_scripts/samples
+eval_scripts/ruler_*/
+eval_scripts/granite*/
+eval_scripts/decoder*/
+jsonlgz.py
+/proj/embedding/meet/Landmark/inf-dds/decoder_ft/decoder-embeddings/scripts/submit_jobs.sh

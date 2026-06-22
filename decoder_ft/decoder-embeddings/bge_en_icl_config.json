@@ -1,0 +1,1142 @@
+[
+  {
+    "name": "amazon_counterfactual_classification-00000-of-00001.jsonl.gz",
+    "lines": 3907,
+    "weight": 3907
+  },
+  {
+    "name": "amazon_reviews_classification-00000-of-00001.jsonl.gz",
+    "lines": 20000,
+    "weight": 20000
+  },
+  {
+    "name": "arXiv_abstract-00000-of-00001.jsonl.gz",
+    "lines": 20000,
+    "weight": 20000
+  },
+  {
+    "name": "arguana-00000-of-00001.jsonl.gz",
+    "lines": 4065,
+    "weight": 4065
+  },
+  {
+    "name": "arxiv_title-00000-of-00001.jsonl.gz",
+    "lines": 20000,
+    "weight": 20000
+  },
+  {
+    "name": "banking_classification-00000-of-00001.jsonl.gz",
+    "lines": 10003,
+    "weight": 10003
+  },
+  {
+    "name": "biorxiv_abstract-00000-of-00001.jsonl.gz",
+    "lines": 4070,
+    "weight": 4070
+  },
+  {
+    "name": "biorxiv_title-00000-of-00001.jsonl.gz",
+    "lines": 4070,
+    "weight": 4070
+  },
+  {
+    "name": "eli5-00000-of-00007.jsonl.gz",
+    "lines": 46497,
+    "weight": 46497
+  },
+  {
+    "name": "eli5-00001-of-00007.jsonl.gz",
+    "lines": 46497,
+    "weight": 46497
+  },
+  {
+    "name": "eli5-00002-of-00007.jsonl.gz",
+    "lines": 46497,
+    "weight": 46497
+  },
+  {
+    "name": "eli5-00003-of-00007.jsonl.gz",
+    "lines": 46496,
+    "weight": 46496
+  },
+  {
+    "name": "eli5-00004-of-00007.jsonl.gz",
+    "lines": 46496,
+    "weight": 46496
+  },
+  {
+    "name": "eli5-00005-of-00007.jsonl.gz",
+    "lines": 46496,
+    "weight": 46496
+  },
+  {
+    "name": "eli5-00006-of-00007.jsonl.gz",
+    "lines": 46496,
+    "weight": 46496
+  },
+  {
+    "name": "emotion_classification-00000-of-00001.jsonl.gz",
+    "lines": 14341,
+    "weight": 14341
+  },
+  {
+    "name": "fever-00000-of-00002.jsonl.gz",
+    "lines": 14548,
+    "weight": 14548
+  },
+  {
+    "name": "fever-00001-of-00002.jsonl.gz",
+    "lines": 14548,
+    "weight": 14548
+  },
+  {
+    "name": "fiqa-00000-of-00001.jsonl.gz",
+    "lines": 5500,
+    "weight": 5500
+  },
+  {
+    "name": "hotpotqa-00000-of-00002.jsonl.gz",
+    "lines": 42258,
+    "weight": 42258
+  },
+  {
+    "name": "hotpotqa-00001-of-00002.jsonl.gz",
+    "lines": 42258,
+    "weight": 42258
+  },
+  {
+    "name": "imdb_classification-00000-of-00001.jsonl.gz",
+    "lines": 25000,
+    "weight": 25000
+  },
+  {
+    "name": "medrxiv_abstract-00000-of-00001.jsonl.gz",
+    "lines": 1157,
+    "weight": 1157
+  },
+  {
+    "name": "medrxiv_title-00000-of-00001.jsonl.gz",
+    "lines": 1157,
+    "weight": 1157
+  },
+  {
+    "name": "msmarco_document-00000-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00001-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00002-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00003-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00004-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00005-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00006-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00007-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00008-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00009-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00010-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00011-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00012-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00013-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00014-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00015-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00016-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00017-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00018-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00019-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00020-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00021-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00022-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00023-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00024-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00025-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00026-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00027-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00028-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00029-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00030-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00031-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00032-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00033-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00034-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00035-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00036-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00037-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00038-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00039-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00040-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00041-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00042-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00043-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00044-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00045-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00046-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00047-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00048-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00049-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00050-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00051-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00052-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00053-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00054-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00055-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00056-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00057-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00058-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00059-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00060-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00061-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00062-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00063-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00064-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00065-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00066-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00067-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00068-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00069-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00070-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00071-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00072-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00073-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00074-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00075-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00076-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00077-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00078-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00079-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00080-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00081-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00082-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00083-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00084-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00085-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00086-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00087-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00088-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00089-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00090-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00091-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00092-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00093-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00094-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00095-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00096-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00097-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00098-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00099-of-00163.jsonl.gz",
+    "lines": 2252,
+    "weight": 2252
+  },
+  {
+    "name": "msmarco_document-00100-of-00163.jsonl.gz",
+    "lines": 2251,
+    "weight": 2251
+  },
+  {
+    "name": "msmarco_document-00101-of-00163.jsonl.gz",
+    "lines": 2251,
+    "weight": 2251
+  },
+  {
+    "name": "msmarco_document-00102-of-00163.jsonl.gz",
+    "lines": 2251,
+    "weight": 2251
+  },
+  {
+    "name": "msmarco_document-00103-of-00163.jsonl.gz",
+    "lines": 2251,
+    "weight": 2251
+  },
+  {
+    "name": "msmarco_document-00104-of-00163.jsonl.gz",
+    "lines": 2251,
+    "weight": 2251
+  },
+  {
+    "name": "msmarco_document-00105-of-00163.jsonl.gz",
+    "lines": 2251,
+    "weight": 2251
+  },
+  {
+    "name": "msmarco_document-00106-of-00163.jsonl.gz",
+    "lines": 2251,
+    "weight": 2251
+  },
+  {
+    "name": "msmarco_document-00107-of-00163.jsonl.gz",
+    "lines": 2251,
+    "weight": 2251
+  },
+  {
+    "name": "msmarco_document-00108-of-00163.jsonl.gz",
+    "lines": 2251,
+    "weight": 2251
+  },
+  {
+    "name": "msmarco_document-00109-of-00163.jsonl.gz",
+    "lines": 2251,
+    "weight": 2251
+  },
+  {
+    "name": "msmarco_document-00110-of-00163.jsonl.gz",
+    "lines": 2251,
+    "weight": 2251
+  },
+  {
+    "name": "msmarco_document-00111-of-00163.jsonl.gz",
+    "lines": 2251,
+    "weight": 2251
+  },
+  {
+    "name": "msmarco_document-00112-of-00163.jsonl.gz",
+    "lines": 2251,
+    "weight": 2251
+  },
+  {
+    "name": "msmarco_document-00113-of-00163.jsonl.gz",
+    "lines": 2251,
+    "weight": 2251
+  },
+  {
+    "name": "msmarco_document-00114-of-00163.jsonl.gz",
+    "lines": 2251,
+    "weight": 2251
+  },
+  {
+    "name": "msmarco_document-00115-of-00163.jsonl.gz",
+    "lines": 2251,
+    "weight": 2251
+  },
+  {
+    "name": "msmarco_document-00116-of-00163.jsonl.gz",
+    "lines": 2251,
+    "weight": 2251
+  },
+  {
+    "name": "msmarco_document-00117-of-00163.jsonl.gz",
+    "lines": 2251,
+    "weight": 2251
+  },
+  {
+    "name": "msmarco_document-00118-of-00163.jsonl.gz",
+    "lines": 2251,
+    "weight": 2251
+  },
+  {
+    "name": "msmarco_document-00119-of-00163.jsonl.gz",
+    "lines": 2251,
+    "weight": 2251
+  },
+  {
+    "name": "msmarco_document-00120-of-00163.jsonl.gz",
+    "lines": 2251,
+    "weight": 2251
+  },
+  {
+    "name": "msmarco_document-00121-of-00163.jsonl.gz",
+    "lines": 2251,
+    "weight": 2251
+  },
+  {
+    "name": "msmarco_document-00122-of-00163.jsonl.gz",
+    "lines": 2251,
+    "weight": 2251
+  },
+  {
+    "name": "msmarco_document-00123-of-00163.jsonl.gz",
+    "lines": 2251,
+    "weight": 2251
+  },
+  {
+    "name": "msmarco_document-00124-of-00163.jsonl.gz",
+    "lines": 2251,
+    "weight": 2251
+  },
+  {
+    "name": "msmarco_document-00125-of-00163.jsonl.gz",
+    "lines": 2251,
+    "weight": 2251
+  },
+  {
+    "name": "msmarco_document-00126-of-00163.jsonl.gz",
+    "lines": 2251,
+    "weight": 2251
+  },
+  {
+    "name": "msmarco_document-00127-of-00163.jsonl.gz",
+    "lines": 2251,
+    "weight": 2251
+  },
+  {
+    "name": "msmarco_document-00128-of-00163.jsonl.gz",
+    "lines": 2251,
+    "weight": 2251
+  },
+  {
+    "name": "msmarco_document-00129-of-00163.jsonl.gz",
+    "lines": 2251,
+    "weight": 2251
+  },
+  {
+    "name": "msmarco_document-00130-of-00163.jsonl.gz",
+    "lines": 2251,
+    "weight": 2251
+  },
+  {
+    "name": "msmarco_document-00131-of-00163.jsonl.gz",
+    "lines": 2251,
+    "weight": 2251
+  },
+  {
+    "name": "msmarco_document-00132-of-00163.jsonl.gz",
+    "lines": 2251,
+    "weight": 2251
+  },
+  {
+    "name": "msmarco_document-00133-of-00163.jsonl.gz",
+    "lines": 2251,
+    "weight": 2251
+  },
+  {
+    "name": "msmarco_document-00134-of-00163.jsonl.gz",
+    "lines": 2251,
+    "weight": 2251
+  },
+  {
+    "name": "msmarco_document-00135-of-00163.jsonl.gz",
+    "lines": 2251,
+    "weight": 2251
+  },
+  {
+    "name": "msmarco_document-00136-of-00163.jsonl.gz",
+    "lines": 2251,
+    "weight": 2251
+  },
+  {
+    "name": "msmarco_document-00137-of-00163.jsonl.gz",
+    "lines": 2251,
+    "weight": 2251
+  },
+  {
+    "name": "msmarco_document-00138-of-00163.jsonl.gz",
+    "lines": 2251,
+    "weight": 2251
+  },
+  {
+    "name": "msmarco_document-00139-of-00163.jsonl.gz",
+    "lines": 2251,
+    "weight": 2251
+  },
+  {
+    "name": "msmarco_document-00140-of-00163.jsonl.gz",
+    "lines": 2251,
+    "weight": 2251
+  },
+  {
+    "name": "msmarco_document-00141-of-00163.jsonl.gz",
+    "lines": 2251,
+    "weight": 2251
+  },
+  {
+    "name": "msmarco_document-00142-of-00163.jsonl.gz",
+    "lines": 2251,
+    "weight": 2251
+  },
+  {
+    "name": "msmarco_document-00143-of-00163.jsonl.gz",
+    "lines": 2251,
+    "weight": 2251
+  },
+  {
+    "name": "msmarco_document-00144-of-00163.jsonl.gz",
+    "lines": 2251,
+    "weight": 2251
+  },
+  {
+    "name": "msmarco_document-00145-of-00163.jsonl.gz",
+    "lines": 2251,
+    "weight": 2251
+  },
+  {
+    "name": "msmarco_document-00146-of-00163.jsonl.gz",
+    "lines": 2251,
+    "weight": 2251
+  },
+  {
+    "name": "msmarco_document-00147-of-00163.jsonl.gz",
+    "lines": 2251,
+    "weight": 2251
+  },
+  {
+    "name": "msmarco_document-00148-of-00163.jsonl.gz",
+    "lines": 2251,
+    "weight": 2251
+  },
+  {
+    "name": "msmarco_document-00149-of-00163.jsonl.gz",
+    "lines": 2251,
+    "weight": 2251
+  },
+  {
+    "name": "msmarco_document-00150-of-00163.jsonl.gz",
+    "lines": 2251,
+    "weight": 2251
+  },
+  {
+    "name": "msmarco_document-00151-of-00163.jsonl.gz",
+    "lines": 2251,
+    "weight": 2251
+  },
+  {
+    "name": "msmarco_document-00152-of-00163.jsonl.gz",
+    "lines": 2251,
+    "weight": 2251
+  },
+  {
+    "name": "msmarco_document-00153-of-00163.jsonl.gz",
+    "lines": 2251,
+    "weight": 2251
+  },
+  {
+    "name": "msmarco_document-00154-of-00163.jsonl.gz",
+    "lines": 2251,
+    "weight": 2251
+  },
+  {
+    "name": "msmarco_document-00155-of-00163.jsonl.gz",
+    "lines": 2251,
+    "weight": 2251
+  },
+  {
+    "name": "msmarco_document-00156-of-00163.jsonl.gz",
+    "lines": 2251,
+    "weight": 2251
+  },
+  {
+    "name": "msmarco_document-00157-of-00163.jsonl.gz",
+    "lines": 2251,
+    "weight": 2251
+  },
+  {
+    "name": "msmarco_document-00158-of-00163.jsonl.gz",
+    "lines": 2251,
+    "weight": 2251
+  },
+  {
+    "name": "msmarco_document-00159-of-00163.jsonl.gz",
+    "lines": 2251,
+    "weight": 2251
+  },
+  {
+    "name": "msmarco_document-00160-of-00163.jsonl.gz",
+    "lines": 2251,
+    "weight": 2251
+  },
+  {
+    "name": "msmarco_document-00161-of-00163.jsonl.gz",
+    "lines": 2251,
+    "weight": 2251
+  },
+  {
+    "name": "msmarco_document-00162-of-00163.jsonl.gz",
+    "lines": 2251,
+    "weight": 2251
+  },
+  {
+    "name": "msmarco_passage-00000-of-00010.jsonl.gz",
+    "lines": 48583,
+    "weight": 48583
+  },
+  {
+    "name": "msmarco_passage-00001-of-00010.jsonl.gz",
+    "lines": 48583,
+    "weight": 48583
+  },
+  {
+    "name": "msmarco_passage-00002-of-00010.jsonl.gz",
+    "lines": 48583,
+    "weight": 48583
+  },
+  {
+    "name": "msmarco_passage-00003-of-00010.jsonl.gz",
+    "lines": 48582,
+    "weight": 48582
+  },
+  {
+    "name": "msmarco_passage-00004-of-00010.jsonl.gz",
+    "lines": 48582,
+    "weight": 48582
+  },
+  {
+    "name": "msmarco_passage-00005-of-00010.jsonl.gz",
+    "lines": 48582,
+    "weight": 48582
+  },
+  {
+    "name": "msmarco_passage-00006-of-00010.jsonl.gz",
+    "lines": 48582,
+    "weight": 48582
+  },
+  {
+    "name": "msmarco_passage-00007-of-00010.jsonl.gz",
+    "lines": 48582,
+    "weight": 48582
+  },
+  {
+    "name": "msmarco_passage-00008-of-00010.jsonl.gz",
+    "lines": 48582,
+    "weight": 48582
+  },
+  {
+    "name": "msmarco_passage-00009-of-00010.jsonl.gz",
+    "lines": 48582,
+    "weight": 48582
+  },
+  {
+    "name": "mtop_intent_classification-00000-of-00001.jsonl.gz",
+    "lines": 15667,
+    "weight": 15667
+  },
+  {
+    "name": "nli-00000-of-00001.jsonl.gz",
+    "lines": 275601,
+    "weight": 275601
+  },
+  {
+    "name": "nq-00000-of-00008.jsonl.gz",
+    "lines": 7321,
+    "weight": 7321
+  },
+  {
+    "name": "nq-00001-of-00008.jsonl.gz",
+    "lines": 7321,
+    "weight": 7321
+  },
+  {
+    "name": "nq-00002-of-00008.jsonl.gz",
+    "lines": 7321,
+    "weight": 7321
+  },
+  {
+    "name": "nq-00003-of-00008.jsonl.gz",
+    "lines": 7321,
+    "weight": 7321
+  },
+  {
+    "name": "nq-00004-of-00008.jsonl.gz",
+    "lines": 7321,
+    "weight": 7321
+  },
+  {
+    "name": "nq-00005-of-00008.jsonl.gz",
+    "lines": 7321,
+    "weight": 7321
+  },
+  {
+    "name": "nq-00006-of-00008.jsonl.gz",
+    "lines": 7321,
+    "weight": 7321
+  },
+  {
+    "name": "nq-00007-of-00008.jsonl.gz",
+    "lines": 7321,
+    "weight": 7321
+  },
+  {
+    "name": "quora-00000-of-00001.jsonl.gz",
+    "lines": 60202,
+    "weight": 60202
+  },
+  {
+    "name": "reddit_clustering-00000-of-00001.jsonl.gz",
+    "lines": 20000,
+    "weight": 20000
+  },
+  {
+    "name": "reddit_clusteringP2P-00000-of-00001.jsonl.gz",
+    "lines": 20000,
+    "weight": 20000
+  },
+  {
+    "name": "scidocsrr-00000-of-00001.jsonl.gz",
+    "lines": 12655,
+    "weight": 12655
+  },
+  {
+    "name": "squad-00000-of-00002.jsonl.gz",
+    "lines": 43800,
+    "weight": 43800
+  },
+  {
+    "name": "squad-00001-of-00002.jsonl.gz",
+    "lines": 43799,
+    "weight": 43799
+  },
+  {
+    "name": "stack_exchange_clustering-00000-of-00001.jsonl.gz",
+    "lines": 20000,
+    "weight": 20000
+  },
+  {
+    "name": "stack_exchange_clusteringP2P-00000-of-00001.jsonl.gz",
+    "lines": 20000,
+    "weight": 20000
+  },
+  {
+    "name": "stack_overflow_dup_questions-00000-of-00001.jsonl.gz",
+    "lines": 19847,
+    "weight": 19847
+  },
+  {
+    "name": "sts-00000-of-00001.jsonl.gz",
+    "lines": 2006,
+    "weight": 2006
+  },
+  {
+    "name": "toxic_conversations_classification-00000-of-00001.jsonl.gz",
+    "lines": 25000,
+    "weight": 25000
+  },
+  {
+    "name": "trivial-00000-of-00008.jsonl.gz",
+    "lines": 7540,
+    "weight": 7540
+  },
+  {
+    "name": "trivial-00001-of-00008.jsonl.gz",
+    "lines": 7540,
+    "weight": 7540
+  },
+  {
+    "name": "trivial-00002-of-00008.jsonl.gz",
+    "lines": 7540,
+    "weight": 7540
+  },
+  {
+    "name": "trivial-00003-of-00008.jsonl.gz",
+    "lines": 7539,
+    "weight": 7539
+  },
+  {
+    "name": "trivial-00004-of-00008.jsonl.gz",
+    "lines": 7539,
+    "weight": 7539
+  },
+  {
+    "name": "trivial-00005-of-00008.jsonl.gz",
+    "lines": 7539,
+    "weight": 7539
+  },
+  {
+    "name": "trivial-00006-of-00008.jsonl.gz",
+    "lines": 7539,
+    "weight": 7539
+  },
+  {
+    "name": "trivial-00007-of-00008.jsonl.gz",
+    "lines": 7539,
+    "weight": 7539
+  },
+  {
+    "name": "tweet_sentiment_extraction_classification-00000-of-00001.jsonl.gz",
+    "lines": 27481,
+    "weight": 27481
+  },
+  {
+    "name": "twenty_news_groups-00000-of-00001.jsonl.gz",
+    "lines": 11854,
+    "weight": 11854
+  }
+]
